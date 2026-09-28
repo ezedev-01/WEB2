@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB2</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SE VENDE</h1>
+    </header>
+    <main>
+      <figure>
+        <img src="img/1.jpeg" alt="imagen1" />
+      </figure>
+      <figure>
+        
+        <a href="paguina2.html" target="_blank"><img src="img/2.jpeg" alt="imagen2" /></a>
+      </figure>
+    </main>
+    <!-- Modal a pantalla completa -->
+    <div class="modal" id="modalImagen">
+      <span class="cerrar" id="btnCerrar">&times;</span>
+      <div class="modal-contenedor">
+        <button
+          class="nav-btn nav-izquierda"
+          id="btnAnterior"
+          aria-label="Imagen anterior"
+        >
+          &#10094;
+        </button>
+        <img
+          class="modal-contenido"
+          id="imagenExpandida"
+          alt="Imagen ampliada"
+        />
+        <button
+          class="nav-btn nav-derecha"
+          id="btnSiguiente"
+          aria-label="Imagen siguiente"
+        >
+          &#10095;
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <h2>Contacto: 3754-466341</h2>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
